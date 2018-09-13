@@ -23,7 +23,7 @@ const conf = {
         contentBase: path.join(__dirname, 'dist'),
         port: 8080,
         hot: true,
-
+        historyApiFallback: true,
     },
     plugins: [
         new webpack.HotModuleReplacementPlugin()
